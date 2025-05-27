@@ -1,0 +1,6 @@
+"manifest"
+{
+  "version" "1"
+  "commandline" "/run-through-wayland"
+  "use_sessions" "1"
+}

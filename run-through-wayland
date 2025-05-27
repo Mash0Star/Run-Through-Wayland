@@ -1,0 +1,14 @@
+#!/bin/sh
+#made by Mash0Star ^w^
+
+export PROTON_ENABLE_WAYLAND=1
+export PROTON_ENABLE_HDR=1
+export RESOLUTION=$(xdpyinfo | awk '/dimensions/{print $2}')
+export env GAME="$1"
+export env LAUNCH="$2"
+export env ARGS="${@:3}"
+export GAMESCOPE_WAYLAND_DISPLAY=1
+export ENABLE_GAMESCOPE_WSI=0
+
+exec ~/.steam/steam/compatibilitytools.d/Run-Through-Wayland/cage -- bash -c '~/.steam/steam/compatibilitytools.d/Run-Through-Wayland/wlr-randr --output X11-1 --custom-mode $RESOLUTION@90Hz ; \
+~/.steam/steam/compatibilitytools.d/GE-PROTON10-3/proton run "$GAME" "$LAUNCH" "$ARGS"'
