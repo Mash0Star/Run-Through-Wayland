@@ -10,7 +10,7 @@ Run Proton games through GE-PROTON10-3 on your Steam Deck!
 * 5: Install ``wlroots-0.16.2-1-x86_64.pkg.tar.zst`` by doing ``sudo pacman -U ~.steam/steam/compatibilitytools.d/Run-Through-Wayland/wlroots-0.16.2-1-x86_64.pkg.tar.zst``.
 * 6: Restart Steam.
 * 7: Select any Proton game you wanna play and force it to use ``Run-Through-Wayland``.
-* 8: Hit play and enjoy! ^w^'
+* 8: Hit play and enjoy! ^w^
 
 # Caviats
 Some games might not work yet with the Wayland Driver or the script isn't good enough to handle a certian game.
