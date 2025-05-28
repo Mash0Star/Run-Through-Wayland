@@ -2,6 +2,12 @@
 Run Proton games through GE-PROTON10-3 on your Steam Deck!
 (Pretty botched bash script as its my first time doing something like this...)
 
+# Before
+![alt text](https://github.com/Mash0Star/Run-Through-Wayland/blob/main/x11.jpg "Without the Wayland Driver (x11)")
+
+# After
+![alt text](https://github.com/Mash0Star/Run-Through-Wayland/blob/main/wayland.jpg "with the Wayland driver! (cage)")
+
 # Instructions
 * 1: Download the ``Run-Through-Wayland`` from the releases section.
 * 2: Extract ``Run-Through-Wayland`` into your Steam install (by default its ``~/.steam/steam/compatibilitytools.d/``).
