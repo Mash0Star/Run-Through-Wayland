@@ -4,9 +4,11 @@ Run Proton games through GE-PROTON10-3 on your Steam Deck!
 
 # Before
 ![alt text](https://github.com/Mash0Star/Run-Through-Wayland/blob/main/x11.jpg "Without the Wayland Driver (x11)")
+(video X11: https://youtu.be/sOAhQcDMDVw?si=oAQZ5X6f2fk8sRCI)
 
 # After
 ![alt text](https://github.com/Mash0Star/Run-Through-Wayland/blob/main/wayland.jpg "with the Wayland driver! (cage)")
+(video Wayland: https://youtu.be/4X4p4rzLOeQ?si=Bc4mdUNKjOzzfblS)
 
 # Instructions
 * 1: Download the ``Run-Through-Wayland`` from the releases section.
